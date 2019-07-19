@@ -7,11 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "friends",
     "express",
     "node",
     "npm",
-    "routes"
+    "routes",
+    "API",
   ],
   "author": "Prashant Goyal",
   "license": "ISC",
