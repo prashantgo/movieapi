@@ -1,0 +1,15 @@
+<h1>Search Movies</h1>
+
+<form method="GET" action="/results">
+	<input type="text" name="search" placeholder="Type a keyword to search">
+	<button type="submit">Submit</button>
+</form>
+
+<ul>
+	<% movies.forEach(function(movie){ %>
+		<li> 
+			<%= movie.Title %>
+			<img src= "<%= movie.Poster %>" />
+		</li>
+	<% });%>
+</ul>

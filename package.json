@@ -1,0 +1,24 @@
+{
+  "name": "addfriendapp",
+  "version": "1.0.0",
+  "description": "a little express app for friends",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "friends",
+    "express",
+    "node",
+    "npm",
+    "routes"
+  ],
+  "author": "Prashant Goyal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  }
+}
